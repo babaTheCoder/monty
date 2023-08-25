@@ -3,13 +3,13 @@
 /* Error related definations and declaration of monty 0.98 */
 
 /* Error message number(codes) */
-/* LEVEL ONE ERROR CODES */
+	/* LEVEL ONE ERROR CODES */
 #define _MONTY_USAGE_ERR 101
 #define _MONTY_UNABLE_TO_READ_FILE 102
 #define _MONTY_MALLOC_FAILED 103
 #define _MONTY_
 
-/* LEVEL TWO ERROR CODES */
+	/* LEVEL TWO ERROR CODES */
 #define _MONTY_PUSH_USAGE 111
 #define _MONTY_PINT_STACK_EMPTY 112
 #define _MONTY_POP_EMPTY_STACK 113
@@ -24,11 +24,11 @@
 #define _MONTY_MUL_STACK_TOO_SHORT 122
 #define _MONTY_MOD_STACK_TOO_SHORT 123
 
+
 /* function declarations */
 void exit_error_msg(int code, char *add);
-void free_exit(int_exit);
+void free_exit(int _exit);
 void level_one_error(int code, char *add);
 void level_two_error(int code, char *add);
 
 #endif
-

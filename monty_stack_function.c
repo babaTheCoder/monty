@@ -89,7 +89,7 @@ stack_t *cnt = NULL;
 
 if (head == NULL)
 return (NULL);
-new = init_stack_elt(n, NULL, NULL);
+new = push_stack_elt(n, NULL, NULL);
 for (cnt = *head; ; cnt = cnt->next)
 {
 if (cnt == NULL)
