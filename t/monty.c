@@ -1,5 +1,5 @@
 #include "monty.h"
-
+#include <stdio.h>
 /* contains information about the current opcode being executed. */
 opcode_i opcode_info;
 
