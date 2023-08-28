@@ -13,6 +13,6 @@ void _pall(stack_t **stack, __attribute__ ((unused))unsigned int line_number)
 	while (run1 != NULL)
 	{
 		printf("%d\n", run1->n);
-		runner = run1->next;
+		run1 = run1->next;
 	}
 }
